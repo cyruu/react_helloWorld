@@ -12,6 +12,7 @@ const App = () => {
     for (let i = 0; i < inp.length; i++) {
       let box = document.getElementById(`box${i}`);
 
+      
       for (let j = 65; j < 65 + 26; j++) {
         let temp = String.fromCharCode(j);
         box.textContent = temp;
